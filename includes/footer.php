@@ -4,7 +4,7 @@
                 <div class="col-md-4 matchHeight clearfix">
                     <div class="footer-widget-area">
                         <div id="media_image-2" class="widget widget_media_image">
-                            <img style="width: 200px; margin-top: 20px;" src="/bacabal/site/img/logo_pequena.png" class="image wp-image-2886  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></div>
+                            <img style="width: 200px; margin-top: 20px;" src="img/logo_pequena.png" class="image wp-image-2886  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></div>
                         <div id="text-4" class="widget widget_text">
                             <div class="textwidget">
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Vivamus tristique ligula quis orci malesuada tincidunt.</p>
@@ -223,7 +223,7 @@
             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
     </script>
-    <script type="text/javascript" defer src="/bacabal/site/js/autoptimize_1.js"></script>
+    <script type="text/javascript" defer src="js/autoptimize_1.js"></script>
 </body>
 
 </html>

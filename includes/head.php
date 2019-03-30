@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link type="text/css" media="all" href="/bacabal/site/css/autoptimize_1.css" rel="stylesheet" />
-    <link type="text/css" media="only screen and (max-width: 768px)" href="/bacabal/site/css/autoptimize_2.css" rel="stylesheet" />
+    <link type="text/css" media="all" href="css/autoptimize_1.css" rel="stylesheet" />
+    <link type="text/css" media="only screen and (max-width: 768px)" href="css/autoptimize_2.css" rel="stylesheet" />
     
     <title>Água Bacabal - Água Mineral | Home </title>
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
-    <link rel="stylesheet" type="text/css" href="/bacabal/site/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/",
@@ -62,8 +62,8 @@
         }(window, document, window._wpemojiSettings);
     </script>
     <link rel='stylesheet' id='aquaterias_google_fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans:regular,400i,600i,600,700,800%7CMerriweather:900,400i,600i,600,700,800&#038;subset=latin' type='text/css' media='all' />
-    <link rel='stylesheet' id='dashicons-css' href='/bacabal/site/css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
-    <script type='text/javascript' src='/bacabal/site/js/jquery.js?ver=1.12.4'></script>
+    <link rel='stylesheet' id='dashicons-css' href='css/dashicons.min.css?ver=5.1.1' type='text/css' media='all' />
+    <script type='text/javascript' src='js/jquery.js?ver=1.12.4'></script>
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -71,7 +71,7 @@
             }
         </style>
     </noscript>
-    <link rel="stylesheet" type="text/css" href="/bacabal/site/css/vc_shortcodes-custom-css.css">
+    <link rel="stylesheet" type="text/css" href="css/vc_shortcodes-custom-css.css">
     
     <noscript>
         <style type="text/css">
