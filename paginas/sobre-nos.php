@@ -111,7 +111,7 @@
                                                         <h5 class="header">Nossa Companhia <span class="subheader sub-nl"></span></h5></div>
                                                     <div class="heading  head-subheader align-left color-black transform-default   vc_custom_1514245538346" id="like_sc_header_977657762">
                                                         <h6 class="header">
-                                                            A água Bacabal é ideal para beber, cozinhar, esportes e até para crianças. O produto é certificado pelo ISO do país.
+                                                            A água Bacabal é ideal para beber, cozinhar, esportes e até para crianças. O produto é certificado e nos garantimos a qualidade.                                                            
                                                             <span class="subheader sub-nl"></span></h6></div>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 0px;"></div>
@@ -298,7 +298,8 @@
                                                     <div class="ltx-content-width col-align-center" style="max-width: 970px">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p style="text-align: center">Suspendisse potenti. Vestibulum luctus justo sed nibh interdum, nec mollis sem convallis. Sed placerat sem ante, ut aliquam mauris lacinia ac. Praesent in diam eros.</p>
+                                                                <p style="text-align: center">Conheça nossa empresa por dentro! E companhe como é nosso processo de trabalho!</p>
+                                                                
                                                             </div>
                                                         </div>
                                                     </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="/bacabal/site/img/video.png" class="image" alt=""></span><span class="play"></span></a>

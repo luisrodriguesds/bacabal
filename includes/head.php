@@ -82,7 +82,7 @@
     </noscript>
 </head>
 
-<body class="page-template-default page page-id-2462 woocommerce-no-js tribe-no-js masthead-fixed full-width footer-widgets singular paceloader-default wpb-js-composer js-comp-ver-5.7 vc_responsive">
+<body class="page-template-default page page-id-2462 woocommerce woocommerce-no-js tribe-no-js masthead-fixed full-width footer-widgets singular paceloader-default wpb-js-composer js-comp-ver-5.7 vc_responsive">
     <div id="preloader"></div>
     <div id="nav-wrapper">
         

@@ -303,7 +303,7 @@
                                                                             </div>
                                                                         </a>
                                                                         <div class="description"> <a href="#water-set/" class="header"><h5>Distribuidor Depósito</h5></a>
-                                                                            <div class="post_content entry-content">A partir de 1 unidade</div>
+                                                                            <div class="post_content entry-content">A partir de 10 unidade</div>
                                                                             <h6 class="price color-second">
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">R$</span>3,50 a unidade</span> 
