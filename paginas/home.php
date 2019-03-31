@@ -66,7 +66,7 @@
                                                     <div class="wpb_single_image wpb_content_element vc_align_left   water-slider ltx-sr ltx-sr-effect-fade_in  ltx-sr-id-1061556572  ltx-sr-el-block  ltx-sr-delay-500  ltx-sr-duration-800  ltx-sr-sequences-100" style="margin-top: 50px;">
                                                         <figure class="wpb_wrapper vc_figure">
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img width="811" height="707" src="/bacabal/site/img/slide_01_novo.png" class="vc_single_image-img attachment-full" alt="" srcset="/bacabal/site/img/slide_01_novo.png 811w, /bacabal/site/img/slide_01_novo.png 300w, /bacabal/site/img/slide_01_novo.png 768w, /bacabal/site/img/slide_01_novo.png 600w" sizes="(max-width: 811px) 100vw, 811px" />
+                                                                <img width="811" height="707" src="img/slide_01_novo.png" class="vc_single_image-img attachment-full" alt="" srcset="img/slide_01_novo.png 811w, img/slide_01_novo.png 300w, img/slide_01_novo.png 768w, img/slide_01_novo.png 600w" sizes="(max-width: 811px) 100vw, 811px" />
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -181,14 +181,14 @@
                                                     <div class="wpb_single_image wpb_content_element vc_align_center   floating-glass ltx-sr ltx-sr-effect-zoom_in  ltx-sr-id-921103540  ltx-sr-el-block  ltx-sr-delay-200  ltx-sr-duration-500  ltx-sr-sequences-100">
                                                         <figure class="wpb_wrapper vc_figure">
                                                             <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                                <img width="760" height="561" src="/bacabal/site/img/mineral-glass-square_m.png" class="vc_single_image-img attachment-full" alt="" srcset="/bacabal/site/img/mineral-glass-square_m.png 760w, /bacabal/site/img/mineral-glass-square_m.png 300w, /bacabal/site/img/mineral-glass-square_m.png 600w" sizes="(max-width: 760px) 100vw, 760px" />
+                                                                <img width="760" height="561" src="img/mineral-glass-square_m.png" class="vc_single_image-img attachment-full" alt="" srcset="img/mineral-glass-square_m.png 760w, img/mineral-glass-square_m.png 300w, img/mineral-glass-square_m.png 600w" sizes="(max-width: 760px) 100vw, 760px" />
                                                             </div>
                                                         </figure>
                                                     </div>
                                                     <div class="wpb_single_image wpb_content_element vc_align_left   floating-minerals ltx-sr ltx-sr-effect-slide_rotate  ltx-sr-id-453179798  ltx-sr-el-block  ltx-sr-delay-0  ltx-sr-duration-1200  ltx-sr-sequences-0">
                                                         <figure class="wpb_wrapper vc_figure">
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img width="807" height="669" src="/bacabal/site/img/mineral-elements-2.png" class="vc_single_image-img attachment-full" alt="" srcset="/bacabal/site/img/mineral-elements-2.png 807w, /bacabal/site/img/mineral-elements-2.png 300w, /bacabal/site/img/mineral-elements-2.png 768w, /bacabal/site/img/mineral-elements-2.png 600w" sizes="(max-width: 807px) 100vw, 807px" />
+                                                                <img width="807" height="669" src="img/mineral-elements-2.png" class="vc_single_image-img attachment-full" alt="" srcset="img/mineral-elements-2.png 807w, img/mineral-elements-2.png 300w, img/mineral-elements-2.png 768w, img/mineral-elements-2.png 600w" sizes="(max-width: 807px) 100vw, 807px" />
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -407,7 +407,7 @@
                                                     <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1514258359881">
                                                         <figure class="wpb_wrapper vc_figure">
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img width="596" height="643" src="/bacabal/site/img/man_01.png" class="vc_single_image-img attachment-full" alt="" srcset="/bacabal/site/img/man_01.png 596w, /bacabal/site/img/man_01.png 278w" sizes="(max-width: 596px) 100vw, 596px" />
+                                                                <img width="596" height="643" src="img/man_01.png" class="vc_single_image-img attachment-full" alt="" srcset="img/man_01.png 596w, img/man_01.png 278w" sizes="(max-width: 596px) 100vw, 596px" />
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -618,7 +618,7 @@
                                                                 <p style="text-align: center">Conheça nossa empresa por dentro! E companhe como é nosso processo de trabalho!</p>
                                                             </div>
                                                         </div>
-                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="/bacabal/site/img/video.png" class="image" alt=""></span><span class="play"></span></a>
+                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/video.png" class="image" alt=""></span><span class="play"></span></a>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 100px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 100px;"></div>

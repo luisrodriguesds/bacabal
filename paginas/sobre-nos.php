@@ -3,7 +3,7 @@
         <div class="container">
             <h1>Sobre Nós</h1>
             <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home." href="/bacabal/site/" class="home"><span property="name">Home</span></a>
+                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Home." href="#" class="home"><span property="name">Home</span></a>
                     <meta property="position" content="1">
                     </span>
                 </li>
@@ -299,10 +299,10 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p style="text-align: center">Conheça nossa empresa por dentro! E companhe como é nosso processo de trabalho!</p>
-                                                                
+
                                                             </div>
                                                         </div>
-                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="/bacabal/site/img/video.png" class="image" alt=""></span><span class="play"></span></a>
+                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/video.png" class="image" alt=""></span><span class="play"></span></a>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 100px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 100px;"></div>
