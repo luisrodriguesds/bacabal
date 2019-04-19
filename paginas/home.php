@@ -39,8 +39,8 @@
                                                         <div class="visible-ms" style="height: 32px;"></div>
                                                         <div class="visible-xs" style="height: 10px;"></div>
                                                     </div>
-                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="page-sobre-nos.php" class="btn  btn-default transform-default color-text-white color-hover-white align-left" id="like_sc_button_1775899866">Leia mais</a></div>
-                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="page-contatos.php" class="btn  btn-second transform-default color-text-white color-hover-white align-left" id="like_sc_button_579445275">Faça seu Pedido!</a></div>
+                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="sobre-nos" class="btn  btn-default transform-default color-text-white color-hover-white align-left" id="like_sc_button_1775899866">Leia mais</a></div>
+                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="contatos" class="btn  btn-second transform-default color-text-white color-hover-white align-left" id="like_sc_button_579445275">Faça seu Pedido!</a></div>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 130px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 130px;"></div>
@@ -294,24 +294,29 @@
                                                         <h3 class="header">Escolha sua água!</h3></div>
                                                     <div class="woocommerce">
                                                         <div class="products products-sc products-sc-simple row posts-4">
+
+                                                            <?php 
+                                                                for ($i=0; $i < count($produtos); $i++) { 
+                                                                 
+                                                            ?>
                                                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  item filter-type- ">
                                                                 <article id="post-2071" class="post-2071 product type-product status-publish has-post-thumbnail product_cat-water product_tag-mineral product_tag-pack product_tag-soda product_tag-water first instock shipping-taxable purchasable product-type-variable">
                                                                     <div class="matchHeight item">
-                                                                        <a href="#water-set/">
+                                                                        <a href="<?php echo 'produtos?item='.$produtos[$i]['nameSlug']; ?>">
                                                                             <div class="image"> 
-                                                                                <img width="300" height="300" src="img/garrafao_produto.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""  />
+                                                                                <img width="300" height="300" src="<?php echo $produtos[$i]['img'] ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""  />
                                                                             </div>
                                                                         </a>
-                                                                        <div class="description"> <a href="#water-set/" class="header"><h5>Distribuidor Depósito</h5></a>
-                                                                            <div class="post_content entry-content">A partir de 10 unidade</div>
+                                                                        <div class="description"> <a href="<?php echo 'produtos?item='.$produtos[$i]['nameSlug']; ?>" class="header"><h5><?php echo $produtos[$i]['name'] ?></h5></a>
+                                                                            <div class="post_content entry-content"><?php echo $produtos[$i]['name'] ?></div>
                                                                             <h6 class="price color-second">
                                                                                 <span class="woocommerce-Price-amount amount">
-                                                                                    <span class="woocommerce-Price-currencySymbol">R$</span>3,50 a unidade</span> 
+                                                                                    <span class="woocommerce-Price-currencySymbol">R$</span><?php echo $produtos[$i]['price'] ?> a unidade</span> 
                                                                                         <span class="woocommerce-Price-amount amount">
                                                                                             <span class="woocommerce-Price-currencySymbol">
                                                                                                 
                                                                             </h6>
-                                                                            <a rel="nofollow" href="#water-set/" data-quantity="1" data-product_id="2071" data-product_sku="" class=" button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button">
+                                                                            <a rel="nofollow" href="<?php echo 'produtos?item='.$produtos[$i]['nameSlug']; ?>" data-quantity="1" data-product_id="2071" data-product_sku="" class=" button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button">
                                                                                 <i class="fa fa-shopping-cart" aria-hidden="true">
                                                                                     
                                                                                 </i>Ver Produto
@@ -320,60 +325,8 @@
                                                                     </div>
                                                                 </article>
                                                             </div>
-                                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  item filter-type- ">
-                                                                <article id="post-2068" class="post-2068 product type-product status-publish has-post-thumbnail product_cat-water product_tag-lemon product_tag-mineral  instock sale shipping-taxable purchasable product-type-simple">
-                                                                    <div class="matchHeight item">
-                                                                        <a href="#lemonmineral/">
-                                                                            <div class="image"> 
-                                                                                <!-- <span class="onsale">Promoção!</span>  -->
-                                                                                <img width="300" height="300" src="img/garrafao_produto_2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
-                                                                            </div>
-                                                                        </a>
-                                                                        <div class="description"> <a href="#lemonmineral/" class="header"><h5>Distribuidor Médio</h5></a>
-                                                                            <div class="post_content entry-content">A partir de 300 unidades</div>
-                                                                            <h6 class="price color-second">
-                                                                                <span class="woocommerce-Price-amount amount">
-                                                                                <span class="woocommerce-Price-currencySymbol">
-                                                                                R$</span>2,00 a unidade</span> <ins>
-                                                                                    <!-- <span class="woocommerce-Price-amount amount">
-                                                                                    <span class="woocommerce-Price-currencySymbol">R$</span>6.99</span> -->
-                                                                                </ins>
-                                                                            </h6><a rel="nofollow" href="/homepage-mineral-water/?add-to-cart=2068" data-quantity="1" data-product_id="2068" data-product_sku="" class="ajax_add_to_cart button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button"><i class="fa fa-shopping-cart" aria-hidden="true">
-                                                                                
-                                                                            </i>Ver Produto</a></div>
-                                                                    </div>
-                                                                </article>
-                                                            </div>
-                                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  item filter-type- ">
-                                                                <article id="post-2066" class="post-2066 product type-product status-publish has-post-thumbnail product_cat-water product_tag-pack  instock shipping-taxable purchasable product-type-simple">
-                                                                    <div class="matchHeight item">
-                                                                        <a href="#american-black-coffee/">
-                                                                            <div class="image"> 
-                                                                                <img width="300" height="300" src="img/garrafao_produto_3.png" style="height: 220px;" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
-                                                                            </div>
-                                                                        </a>
-                                                                        <div class="description"> <a href="#american-black-coffee/" class="header"><h5>Distribuidor Master</h5></a>
-                                                                            <div class="post_content entry-content">A partir de 800 unidades</div>
-                                                                            <h6 class="price color-second"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">R$</span>1,80</span> a unidade</h6><a rel="nofollow" href="/homepage-mineral-water/?add-to-cart=2066" data-quantity="1" data-product_id="2066" data-product_sku="" class="ajax_add_to_cart button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button"><i class="fa fa-shopping-cart" aria-hidden="true">
-                                                                                
-                                                                            </i>Ver Produto</a></div>
-                                                                    </div>
-                                                                </article>
-                                                            </div>
-                                                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6  item filter-type- ">
-                                                                <article id="post-2164" class="post-2164 product type-product status-publish has-post-thumbnail product_cat-water last instock shipping-taxable purchasable product-type-simple">
-                                                                    <div class="matchHeight item">
-                                                                        <a href="#drop-of-water-mineral/">
-                                                                            <div class="image"> <img width="300" height="300" src="img/garrafao_produto.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""  /></div>
-                                                                        </a>
-                                                                        <div class="description"> <a href="#drop-of-water-mineral/" class="header"><h5>Vasilhame</h5></a>
-                                                                            <div class="post_content entry-content">Qualquer pedido por unidade</div>
-                                                                            <h6 class="price color-second"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">
-                                                                            R$</span>10,00 a unidade</span></h6>
-                                                                            <a rel="nofollow" href="/homepage-mineral-water/?add-to-cart=2164" data-quantity="1" data-product_id="2164" data-product_sku="" class="ajax_add_to_cart button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Ver Produto</a></div>
-                                                                    </div>
-                                                                </article>
-                                                            </div>
+                                                        <?php } ?>
+
                                                         </div>
                                                     </div>
                                                     <!-- <div class="btn-wrap align-center"><a href="" class="btn  btn-xxs btn-black-filled transform-default color-text-default color-hover-second align-center   vc_custom_1514234716572" id="like_sc_button_161397150">Todos os Produtos</a></div> -->
@@ -469,8 +422,8 @@
                                                         <div class="visible-ms" style="height: 20px;"></div>
                                                         <div class="visible-xs" style="height: 20px;"></div>
                                                     </div>
-                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="page-sobre-nos.php" class="btn  btn-default transform-default color-text-white color-hover-white align-left" id="like_sc_button_1533675865">Saiba mais</a></div>
-                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="page-contatos.php" class="btn  btn-second transform-default color-text-white color-hover-white align-left" id="like_sc_button_393991791">Faça seu Pedido!</a></div>
+                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="sobre-nos" class="btn  btn-default transform-default color-text-white color-hover-white align-left" id="like_sc_button_1533675865">Saiba mais</a></div>
+                                                    <div class="btn-wrap align-left btn-wrap-inline"><a href="contatos" class="btn  btn-second transform-default color-text-white color-hover-white align-left" id="like_sc_button_393991791">Faça seu Pedido!</a></div>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 64px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 64px;"></div>
@@ -618,7 +571,7 @@
                                                                 <p style="text-align: center">Conheça nossa empresa por dentro! E companhe como é nosso processo de trabalho!</p>
                                                             </div>
                                                         </div>
-                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/video.png" class="image" alt=""></span><span class="play"></span></a>
+                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/galeria/g_3.jpg" class="image" alt="" style="border-radius: 20px;"></span><span class="play"></span></a>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 100px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 100px;"></div>

@@ -58,7 +58,7 @@
                                                         <div class="visible-ms" style="height: 64px;"></div>
                                                         <div class="visible-xs" style="height: 64px;"></div>
                                                     </div>
-                                                    <div class="btn-wrap align-left"><a href="" class="btn  btn-default transform-default color-text-white color-hover-black align-left" id="like_sc_button_1510529384">Ver produtos</a></div>
+                                                    <div class="btn-wrap align-left"><a href="produtos" class="btn  btn-default transform-default color-text-white color-hover-black align-left" id="like_sc_button_1510529384">Ver produtos</a></div>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 100px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 64px;"></div>
@@ -83,7 +83,7 @@
                                                     </div>
                                                     <div class="wpb_single_image wpb_content_element vc_align_left">
                                                         <figure class="wpb_wrapper vc_figure">
-                                                            <div class="vc_single_image-wrapper vc_box_shadow  vc_box_border_grey"><img width="1400" height="933" src="http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16.jpg" class="vc_single_image-img attachment-full" alt="" srcset="http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16.jpg 1400w, http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16-300x200.jpg 300w, http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16-768x512.jpg 768w, http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16-1024x682.jpg 1024w, http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16-600x400.jpg 600w, http://aquaterias.like-themes.com/wp-content/uploads/2017/09/blog16-272x182.jpg 272w" sizes="(max-width: 1400px) 100vw, 1400px" /></div>
+                                                            <div class="vc_single_image-wrapper vc_box_shadow  vc_box_border_grey"><img width="1400" height="933" src="img/galeria/g_9.jpg" class="vc_single_image-img attachment-full" alt="" /></div>
                                                         </figure>
                                                     </div>
                                                 </div>
@@ -241,27 +241,40 @@
                                         </div>
                                     </div>
                                     <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 text-align-center vc_hidden-sm vc_hidden-xs">
+                                        <div class="wpb_column vc_column_container vc_col-sm-6 text-align-center vc_hidden-sm vc_hidden-xs">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    Certificado 01
+                                                    Habilitação Comercial
+                                                    <div class="cert">
+                                                        <a href="img/certificados/cert_01.jpg" data-fancybox="images" rel="images" class="images">
+                                                            <img src="img/certificados/cert_01.jpg">
+                                                        </a>
+                                                    </div>
                                                     
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 text-align-center vc_hidden-sm vc_hidden-xs">
+                                        <div class="wpb_column vc_column_container vc_col-sm-6 text-align-center vc_hidden-sm vc_hidden-xs">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    Certificado 02
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4 text-align-center vc_hidden-sm vc_hidden-xs">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    Certificado 03
-                                                    
+                                                    Licença Ambiental
+                                                    <div class="cert">
+                                                        <a href="img/certificados/cert_02.jpg" data-fancybox="images" rel="images" class="images">
+                                                            <img src="img/certificados/cert_02.jpg">
+                                                        </a>
+
+                                                        <a href="img/certificados/cert_03.jpg" style="display: none;" data-fancybox="images" rel="images" class="images">
+                                                            <img src="img/certificados/cert_03.jpg">
+                                                        </a>
+
+                                                        <a href="img/certificados/cert_04.jpg" style="display: none;" data-fancybox="images" rel="images" class="images">
+                                                            <img src="img/certificados/cert_04.jpg">
+                                                        </a>
+
+                                                        <a href="img/certificados/cert_05.jpg" style="display: none;" data-fancybox="images" rel="images" class="images">
+                                                            <img src="img/certificados/cert_05.jpg">
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -302,7 +315,7 @@
 
                                                             </div>
                                                         </div>
-                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/video.png" class="image" alt=""></span><span class="play"></span></a>
+                                                    </div><a href="https://www.youtube.com/watch?v=l9UcirrUpR0" class="swipebox image-video "><span class="image"><img src="img/galeria/g_3.jpg" class="image" alt="" style="border-radius: 20px;" alt=""></span><span class="play"></span></a>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 100px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 100px;"></div>

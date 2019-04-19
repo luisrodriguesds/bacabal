@@ -7,7 +7,9 @@
                             <img style="width: 200px; margin-top: 20px;" src="img/logo_pequena.png" class="image wp-image-2886  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></div>
                         <div id="text-4" class="widget widget_text">
                             <div class="textwidget">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Vivamus tristique ligula quis orci malesuada tincidunt.</p>
+                                <p>
+                                    A água Bacabal é ideal para beber, cozinhar, esportes e até para crianças. O produto é certificado e nos garantimos a qualidade.
+                                </p>
                             </div>
                         </div>
                         <div id="ltx_icons-2" class="widget widget_ltx_icons">
@@ -224,6 +226,26 @@
         })();
     </script>
     <script type="text/javascript" defer src="js/autoptimize_1.js"></script>
+        <!-- Fancybox -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            
+            $("body .images").fancybox({
+                  prevEffect    : 'block',
+                  nextEffect    : 'block',
+                  closeBtn    : true,
+                  helpers   : {
+                    title : { type : 'inside' },
+                    buttons : {},
+                    media : {}
+                    }
+                });
+        })
+    </script>
+
 </body>
 
 </html>

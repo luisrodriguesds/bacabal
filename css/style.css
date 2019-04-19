@@ -1614,3 +1614,13 @@
         .font-main {
             font-family: 'Open Sans';
         }
+
+        .cert{
+            
+        }
+        .cert img{
+            margin-top: 20px;
+            width: 40%;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }

@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
-                    <a class="logo" href="/bacabal/site/"> 
+                    <a class="logo" href="home"> 
                         <img style="width:230px;" src="img/logo_pequena.png" class="attachment-full size-full" alt="" />
                     </a>
                 </div>

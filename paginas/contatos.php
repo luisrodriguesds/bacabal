@@ -1,4 +1,23 @@
 
+<?php
+    if (isset($_POST['your-name']) && isset($_POST['your-email']) && isset($_POST['your-message'])) {
+        
+     
+        $email           =  "contato@aguabacabal.com.br";
+        $mensagem        = '<meta charset="utf-8"><h2>Água Bacabal - Contato</h2><br><p>De '.$_POST['your-name'].' <'.$_POST['your-email'].'><br><br>Conteúdo:<br>'.$_POST['your-message'].'</p>';
+        $email_remetente = "contato@aguabacabal.com.br";
+        $headers = "MINE-Version: 1.1\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\n";
+        $headers .= "From: $email_remetente\n";
+        $headers .= "Return: $email_remetente\n";
+        $headers .= "Replay-To: $email\n";
+        
+        if (mail("$email", "Água Bacabal - Contato", "$mensagem", $headers, "-f$email_remetente")) {
+            echo '<script type="text/javascript">alerta("Mensagem Enviada com sucesso!"); window.location=location.href;</script>';
+        }
+          
+    }
+?>
 
     <header class="page-header  header-h1 ">
         <div class="container">
@@ -31,7 +50,7 @@
                                                         <h4 class="header">Entre em Contato!</h4></div>
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
-                                                            <p>Nam eu mi eget velit vulputate tempor gravida quis massa. In malesuada condimentum ultrices. Sed et mauris a purus fermentum elementum. Sed tristique semper enim, et gravida orci iaculis et. Nulla facilisi.</p>
+                                                            <!-- <p>Nam eu mi eget velit vulputate tempor gravida quis massa. In malesuada condimentum ultrices. Sed et mauris a purus fermentum elementum. Sed tristique semper enim, et gravida orci iaculis et. Nulla facilisi.</p> -->
                                                         </div>
                                                     </div>
                                                     <div class="align-default ">
@@ -46,16 +65,16 @@
                                                     <div class="align-default ">
                                                         <ul class="social-big icon-weight-bold" id="like_sc_header_764217774">
                                                             <li>
-                                                                <a href="#" class="fa fa-facebook"></a>
+                                                                <a target="_blank" href="https://www.google.com/search?q=%C3%81gua%20Bacabal&oq=%C3%81gua+Bacabal&aqs=chrome..69i57j69i60l3j0l2.6710j0j7&sourceid=chrome&ie=UTF-8&npsic=0&rflfq=1&rlha=0&rllag=-4225821,-44787581,1377&tbm=lcl&rldimm=14763890030589065684&ved=2ahUKEwish9H1q9zhAhXTD7kGHYXsAS0QvS4wBnoECAkQKg&rldoc=1&tbs=lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2#rlfi=hd:;si:14763890030589065684;mv:!1m2!1d-4.2161428!2d-44.7776005!2m2!1d-4.2354994999999995!2d-44.797562899999996;tbs:lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2" class="fa fa-google-plus"></a>
                                                             </li>
                                                             <li>
-                                                                <a href="#" class="fa fa-twitter"></a>
+                                                                <a target="_blank" href="https://www.facebook.com/agua.bacabal.75" class="fa fa-facebook"></a>
                                                             </li>
                                                             <li>
-                                                                <a href="#" class="fa fa-youtube"></a>
+                                                                <a target="_blank" href="https://www.instagram.com/p/Bt8Ni6sAmCu/?utm_source=ig_share_sheet&igshid=uhyovzhysrlp" class="fa fa-instagram"></a>
                                                             </li>
                                                             <li>
-                                                                <a href="#" class="fa fa-instagram"></a>
+                                                                <a target="_blank" href="https://www.youtube.com/watch?v=l9UcirrUpR0&t=21s" class="fa fa-youtube"></a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -75,17 +94,9 @@
                                                         <div class="visible-xs" style="height: 32px;"></div>
                                                     </div>
                                                     <div class="ltx-contact-form-7 transform-default form-default form-bg-default form-style-default form-btn-default form-btn-default form-padding-none    vc_custom_1505582392596" id="like_sc_contact_form_7_1314817811">
-                                                        <div role="form" class="wpcf7" id="wpcf7-f1551-p25-o1" lang="en-US" dir="ltr">
-                                                            <div class="screen-reader-response"></div>
-                                                            <form action="/contacts/#wpcf7-f1551-p25-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                                                                <div style="display: none;">
-                                                                    <input type="hidden" name="_wpcf7" value="1551" />
-                                                                    <input type="hidden" name="_wpcf7_version" value="5.1.1" />
-                                                                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1551-p25-o1" />
-                                                                    <input type="hidden" name="_wpcf7_container_post" value="25" />
-                                                                    <input type="hidden" name="g-recaptcha-response" value="" />
-                                                                </div>
+                                                        <div class="screen-reader-response"></div>
+                                                            <form method="post">
+                                                                
                                                                 <p>
                                                                     <label> Nome
                                                                         <br /> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label>
@@ -99,11 +110,9 @@
                                                                         <br /> <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label>
                                                                 </p>
                                                                 <p>
-                                                                    <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" />
+                                                                    <input type="submit" value="Enviar"  />
                                                                 </p>
-                                                                <div class="wpcf7-response-output wpcf7-display-none"></div>
                                                             </form>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

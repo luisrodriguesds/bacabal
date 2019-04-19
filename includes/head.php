@@ -1,6 +1,38 @@
 <?php 
     $url = ((isset($_GET['url'])) ? $_GET['url'] : 'home');
     $url = explode('/', $url);
+
+    $produtos = array();
+    $produtos[0]['img'] = 'img/garrafao_produto.png';
+    $produtos[0]['name'] = 'Distribuidor Depósito';
+    $produtos[0]['nameSlug'] = 'distribuidor-deposito';
+    $produtos[0]['obs'] = 'A partir de 10 unidade';
+    $produtos[0]['price'] = '3,50';
+    $produtos[0]['description'] = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?';
+
+    $produtos[1]['img'] = 'img/garrafao_produto_2.png';
+    $produtos[1]['name'] = 'Distribuidor Médio';
+    $produtos[1]['nameSlug'] = 'distribuidor-medio';
+    $produtos[1]['obs'] = 'A partir de 300 unidades';
+    $produtos[1]['price'] = '2,00';
+    $produtos[1]['description'] = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?';
+
+    $produtos[2]['img'] = 'img/garrafao_produto_3.png';
+    $produtos[2]['name'] = 'Distribuidor Master';
+    $produtos[2]['nameSlug'] = 'distribuidor-master';
+    $produtos[2]['obs'] = 'A partir de 800 unidades';
+    $produtos[2]['price'] = '1,80';
+    $produtos[2]['description'] = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?';
+
+
+    $produtos[3]['img'] = 'img/garrafao_produto.png';
+    $produtos[3]['name'] = 'Vasilhame';
+    $produtos[3]['nameSlug'] = 'vasilhame';
+    $produtos[3]['obs'] = 'Qualquer pedido por unidade';
+    $produtos[3]['price'] = '10,00';
+    $produtos[3]['description'] = 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?';
+
+
 ?>
 <!DOCTYPE html>
 <html>
