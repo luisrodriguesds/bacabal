@@ -4,7 +4,7 @@
         
      
         $email           =  "contato@aguabacabal.com.br";
-        $mensagem        = '<meta charset="utf-8"><h2>Água Bacabal - Contato</h2><br><p>De '.$_POST['your-name'].' <'.$_POST['your-email'].'><br><br>Conteúdo:<br>'.$_POST['your-message'].'</p>';
+        $mensagem        = '<meta charset="utf-8"><h2>Água Bacabal - Contato</h2><br><p>De '.$_POST['your-name'].' - '.$_POST['your-email'].'<br><br>Conteúdo:<br>'.$_POST['your-message'].'</p>';
         $email_remetente = "contato@aguabacabal.com.br";
         $headers = "MINE-Version: 1.1\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1\n";
@@ -13,7 +13,7 @@
         $headers .= "Replay-To: $email\n";
         
         if (mail("$email", "Água Bacabal - Contato", "$mensagem", $headers, "-f$email_remetente")) {
-            echo '<script type="text/javascript">alerta("Mensagem Enviada com sucesso!"); window.location=location.href;</script>';
+            echo '<script type="text/javascript">alert("Mensagem Enviada com sucesso!"); window.location=location.href;</script>';
         }
           
     }
