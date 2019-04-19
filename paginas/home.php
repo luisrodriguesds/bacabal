@@ -354,7 +354,7 @@
                                                                         </a>
                                                                         <div class="description"> <a href="#american-black-coffee/" class="header"><h5>Distribuidor Master</h5></a>
                                                                             <div class="post_content entry-content">A partir de 800 unidades</div>
-                                                                            <h6 class="price color-second"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">R$</span>1,80</span></h6><a rel="nofollow" href="/homepage-mineral-water/?add-to-cart=2066" data-quantity="1" data-product_id="2066" data-product_sku="" class="ajax_add_to_cart button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button"><i class="fa fa-shopping-cart" aria-hidden="true">
+                                                                            <h6 class="price color-second"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">R$</span>1,80</span> a unidade</h6><a rel="nofollow" href="/homepage-mineral-water/?add-to-cart=2066" data-quantity="1" data-product_id="2066" data-product_sku="" class="ajax_add_to_cart button btn btn-default color-hover-black btn transform-lowercase add_to_cart_button"><i class="fa fa-shopping-cart" aria-hidden="true">
                                                                                 
                                                                             </i>Ver Produto</a></div>
                                                                     </div>
@@ -632,7 +632,8 @@
                                         </div>
                                     </div>
                                 </section>
-                                <div class="vc_row-full-width vc_clearfix"></div>
+
+                               <!--  <div class="vc_row-full-width vc_clearfix"></div>
                                 <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_section vc_custom_1514165708687 vc_section-has-fill vc_general vc_parallax vc_parallax-content-moving bg-color-black bg-overlay-dark">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -716,8 +717,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                                <div class="vc_row-full-width vc_clearfix"></div>
+                                </section> -->
 
 
                                 <div class="vc_row-full-width vc_clearfix"></div>

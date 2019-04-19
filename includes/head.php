@@ -1,3 +1,7 @@
+<?php 
+    $url = ((isset($_GET['url'])) ? $_GET['url'] : 'home');
+    $url = explode('/', $url);
+?>
 <!DOCTYPE html>
 <html>
 <head>

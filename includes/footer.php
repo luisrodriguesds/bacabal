@@ -13,16 +13,16 @@
                         <div id="ltx_icons-2" class="widget widget_ltx_icons">
                             <ul class="social-big">
                                 <li>
-                                    <a target="_blank" href="#" class="fa fa-twitter"></a>
+                                    <a target="_blank" href="https://www.google.com/search?q=%C3%81gua%20Bacabal&oq=%C3%81gua+Bacabal&aqs=chrome..69i57j69i60l3j0l2.6710j0j7&sourceid=chrome&ie=UTF-8&npsic=0&rflfq=1&rlha=0&rllag=-4225821,-44787581,1377&tbm=lcl&rldimm=14763890030589065684&ved=2ahUKEwish9H1q9zhAhXTD7kGHYXsAS0QvS4wBnoECAkQKg&rldoc=1&tbs=lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2#rlfi=hd:;si:14763890030589065684;mv:!1m2!1d-4.2161428!2d-44.7776005!2m2!1d-4.2354994999999995!2d-44.797562899999996;tbs:lrf:!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2" class="fa fa-google-plus"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#" class="fa fa-facebook"></a>
+                                    <a target="_blank" href="https://www.facebook.com/agua.bacabal.75" class="fa fa-facebook"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#" class="fa fa-instagram"></a>
+                                    <a target="_blank" href="https://www.instagram.com/p/Bt8Ni6sAmCu/?utm_source=ig_share_sheet&igshid=uhyovzhysrlp" class="fa fa-instagram"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#" class="fa fa-google-plus"></a>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=l9UcirrUpR0&t=21s" class="fa fa-youtube"></a>
                                 </li>
                             </ul>
                         </div>
