@@ -57,7 +57,7 @@
                                                         <ul class="social-icons-list   vc_custom_1515710003627 icon-weight-bold" id="like_sc_header_498280678">
                                                             <li class=""><span class="fa fa-whatsapp"></span><span class="head">(99)98183-8500</span></li>
                                                             <li class=""><span class="fa fa-envelope"></span><span class="head">contato@aguabacabal.com.br</span></li>
-                                                            <li class=""><span class="fa fa-map-marker"></span><span class="head">1468, R. Magalhães de Almeida, 1200, Bacabal - MA, 65700-000</span></li>
+                                                            <li class=""><span class="fa fa-map-marker"></span><span class="head"> AVENIDA DOS CURIÓS, Nº 77 - PARQUE SANTA CLARA - BACABAL -MA</span></li>
                                                         </ul>
                                                     </div>
                                                     <div class="heading  color-black transform-header-up   vc_custom_1502236442786" id="like_sc_header_1976378072">

@@ -367,7 +367,7 @@
                                                     <div class="wpb_single_image wpb_content_element vc_align_left  wpb_animate_when_almost_visible wpb_bounceIn bounceIn  floating-label">
                                                         <figure class="wpb_wrapper vc_figure">
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                                <img width="123" height="122" src="http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free.png" class="vc_single_image-img attachment-full" alt="" srcset="http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free.png 123w, http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free-100x100.png 100w" sizes="(max-width: 123px) 100vw, 123px" />
+                                                                <!-- <img width="123" height="122" src="http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free.png" class="vc_single_image-img attachment-full" alt="" srcset="http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free.png 123w, http://aquaterias.like-themes.com/wp-content/uploads/2017/12/label-free-100x100.png 100w" sizes="(max-width: 123px) 100vw, 123px" /> -->
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -386,7 +386,7 @@
                                                         <div class="visible-xs" style="height: 90px;"></div>
                                                     </div>
                                                     <div class="heading  heading-large inline align-left color-main subcolor-white transform-default" id="like_sc_header_623984993">
-                                                        <h2 class="header">Entrega <span class="subheader">Grátis</span></h2></div>
+                                                        <h2 class="header">Entrega <span class="subheader">Regional</span></h2></div>
                                                     <div class="es-resp">
                                                         <div class="visible-xl" style="height: 16px;"></div>
                                                         <div class="hidden-xl hidden-sm hidden-md hidden-ms hidden-xs" style="height: 16px;"></div>
@@ -408,7 +408,7 @@
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
                                                             <ul class="check">
-                                                                <li><strong><span class="color-main text-md"><span style="color: #21b6ff;">Entrega Grátis</span></span></strong></li>
+                                                                <li><strong><span class="color-main text-md"><span style="color: #21b6ff;">Entrega Regional</span></span></strong></li>
                                                                 <li><strong><span class="color-main text-md"><span style="color: #21b6ff;">6 dias da semana</span></span></strong></li>
                                                                 <li><strong><span class="color-main text-md"><span style="color: #21b6ff;">07:30h - 11:30h | 13:30h - 17:30h</span></span></strong></li>
                                                             </ul>
